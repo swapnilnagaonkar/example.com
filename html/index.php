@@ -1,5 +1,5 @@
 <?php
-echo "HERE";
+echo "HERE RAMA";
 //session_start();
 	//echo "HARE KRISHNA.....";
 //	echo "<pre>";print_r($_SERVER);echo "</pre>";
