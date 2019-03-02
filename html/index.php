@@ -11,6 +11,17 @@ echo "HERE GIT";
 
 <?php
 
+$abcd = "</ ";
+$abcd = "&lt;textarea&gt;&lt;/textarea&gt;";
+$acb = html_entity_decode($abcd);
+$acd = htmlspecialchars($abcd);
+?>
+<script>console.log('<?php echo  $acd;?>');</script>
+<?php
+//&lt;textarea&gt;&lt;/textarea&gt;
+//echo html_entity_decode($abcd);
+exit();
+
 /*$servername = "127.0.0.1";
 $username = "root";
 $password = "root.123";
